@@ -37,7 +37,22 @@
 /**End Nav Styles**/
 
 
+/**Start of Form Styles**/
+.form-container {
+    width: 50%;
+    margin: 25px auto 0px;
+}
+/**End of Form Styles**/
 
+
+/**Start of Map Styles**/
+.map-container {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/**End of Map Styles**/
 
 
 /**Start Footer Styles**/

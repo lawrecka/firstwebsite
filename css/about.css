@@ -33,7 +33,6 @@
     font-size: 115%;
     font-family: cursive;
 }
-
 /**End Nav Styles**/
 
 
@@ -51,12 +50,33 @@
 .about-column {
     width: 50%;
     height: 325px;
+    text-align: center;
+    float: left;
 }
 
 .selfie-image {
-    
+    width: 80%;
+    height: 325px;
+    margin-top: 90px;
 }
 /**End of Content Styles**/
+
+
+
+/**Start of Info Styles**/
+.info-section-container {
+    padding: 15px;
+}
+
+.info-section {
+    width: 33.3333%;
+    height: 200px;
+    border-top: 2px solid #000000;
+    text-align: center;
+    float: left;
+}
+
+/**End of Info Styles**/
 
 
 
