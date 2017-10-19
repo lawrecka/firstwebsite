@@ -37,7 +37,26 @@
 /**End Nav Styles**/
 
 
+/**Start of Content Styles**/
+.about-column-container {
+    padding: 15px;
+}
 
+.about-column-container:after {
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.about-column {
+    width: 50%;
+    height: 325px;
+}
+
+.selfie-image {
+    
+}
+/**End of Content Styles**/
 
 
 
