@@ -1,0 +1,112 @@
+/**Start Nav Styles**/
+
+.main-nav {
+    background: #1a5280;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.nav-list {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav-item {
+    float: left;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #c2daed;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.nav-link:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-shadow: 2px, 3px, #fff0000;
+    font-size: 115%;
+    font-family: cursive;
+}
+
+/**End Nav Styles**/
+
+
+
+
+
+
+/**Start Footer Styles**/
+
+.main-footer {
+    height: 150px;
+    border-top: 3px solid #000000;
+}
+
+.main-footer:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.footer-section {
+    width: 33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: #c2daed;
+    font-family: sans-serif;
+    padding: 15px 0px;
+    background-color: #1a5280;
+}
+
+.section {
+    height: 50px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.section:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-both {
+    clear: both;
+}
+
+
+/**End Column Styles**/
