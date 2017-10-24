@@ -2,6 +2,12 @@
 
 .main-nav {
     background: #1a5280;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 65px;
+    z-index: 1;
 }
 
 .logo {
@@ -39,6 +45,7 @@
 /**Start of Content Styles**/
 .about-column-container {
     padding: 15px;
+    margin-top: 90px;
 }
 
 .about-column-container:after {
@@ -48,16 +55,16 @@
 }
 
 .about-column {
-    width: 50%;
-    height: 325px;
+    width: 45%;
+    height: 500px;
     text-align: center;
     float: left;
+    margin-left: 50px;
 }
 
 .selfie-image {
-    width: 80%;
-    height: 325px;
-    margin-top: 90px;
+    width: 100%;
+    height: 100%;
 }
 /**End of Content Styles**/
 
@@ -123,6 +130,10 @@
     font-size: 18px;
 }
 
+.social a .fa {
+    color: white;
+}
+
 .center {
     margin: 0 auto;
 }
@@ -148,4 +159,4 @@
 }
 
 
-/**End Column Styles**/
+/**End Footer Styles**/

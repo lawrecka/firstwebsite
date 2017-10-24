@@ -2,6 +2,12 @@
 
 .main-nav {
     background: #1a5280;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 65px;
+    z-index: 1;
 }
 
 .logo {
@@ -39,10 +45,11 @@
 /**Start Hero Styles**/
 
 .hero-background {
-    background-image: url();
+    background-image: url(../images/IMG_1778.JPG);
     height: 400px;
     background-size: cover;
     background-position: center center;
+    margin-top: 50px;
 }
 
 .hero-text {
@@ -63,7 +70,7 @@
 
 /**Start Column Styles**/
 .column-container {
-    padding: 15px;
+    padding: 10px;
 }
 
 .column-container:after {
@@ -73,7 +80,7 @@
 }
 
 .column {
-    width: 22.5%;
+    width: 45%;
     height: 500px;
     border: 1px solid #000000;
     text-align: center;
@@ -82,10 +89,39 @@
 }
 
 .column-image {
-    width: 100%;
+    width: 55%;
     height: 300px;
 }
+
+
 /**End Column Styles**/
+
+/**Start Picture Styles**/
+.picture-container {
+    padding: 15px;
+    border-top: 2px solid #1a5280;
+}
+
+.picture-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.picture {
+    width: 22.5%;
+    height: 200px;
+    border: 1px solid #000000;
+    text-align: center;
+    float: left;
+    margin-left: 2%;
+}
+
+.picture-image {
+    width: 100%;
+    height: 200px;
+}
+/**End Picture Styles**/
 
 
 
@@ -132,6 +168,10 @@
     font-size: 18px;
 }
 
+.social a .fa {
+    color: white;
+}
+
 .center {
     margin: 0 auto;
 }
@@ -157,4 +197,4 @@
 }
 
 
-/**End Column Styles**/
+/**End Footer Styles**/

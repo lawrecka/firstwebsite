@@ -2,6 +2,12 @@
 
 .main-nav {
     background: #1a5280;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 65px;
+    z-index: 1;
 }
 
 .logo {
@@ -41,6 +47,7 @@
 .form-container {
     width: 50%;
     margin: 25px auto 0px;
+    margin-top: 100px;
 }
 /**End of Form Styles**/
 
@@ -98,6 +105,10 @@
     font-size: 18px;
 }
 
+.social a .fa {
+    color: white;
+}
+
 .center {
     margin: 0 auto;
 }
@@ -123,4 +134,4 @@
 }
 
 
-/**End Column Styles**/
+/**End Footer Styles**/
